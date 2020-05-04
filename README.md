@@ -7,4 +7,11 @@
 
 5. stop server
 6. add `{:flow, "~> 1.0"}` to apps/flow_test/mix.exs
-7. add simple code using Flow to apps/flow_test/lib/flow_test.ex
+7. add simple code using Flow (`FlowTest.flow_yo/1`) to apps/flow_test/lib/flow_test.ex
+
+8. use `FlowTest.flow_yo/1` in `FlowTestWeb.PageLive.mount/3`
+9. `iex -S mix phx.server` (even though this failed, I wanted to keep it in my history in case it matters)
+10. `mix deps.get`
+11. `iex -S mix phx.server`
+12. navigate to http://localhost:4000/
+13. 💥

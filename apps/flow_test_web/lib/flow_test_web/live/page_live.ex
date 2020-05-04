@@ -3,6 +3,7 @@ defmodule FlowTestWeb.PageLive do
 
   @impl true
   def mount(_params, _session, socket) do
+    FlowTest.flow_yo([1, 2, 3, 4, 5])
     {:ok, assign(socket, query: "", results: %{})}
   end
 

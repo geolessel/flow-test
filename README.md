@@ -15,3 +15,14 @@
 11. `iex -S mix phx.server`
 12. navigate to http://localhost:4000/
 13. 💥
+
+---
+
+My machine:
+
+```shell
+> elixir --version
+Erlang/OTP 22 [erts-10.7.1] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [hipe] [dtrace]
+
+Elixir 1.10.2 (compiled with Erlang/OTP 21)
+```
